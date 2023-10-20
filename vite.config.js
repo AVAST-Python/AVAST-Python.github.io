@@ -7,6 +7,11 @@ const outDir = resolve(__dirname, 'dist')
 export default defineConfig({
   // config options
   root,
+  resolve: {
+    alias: {
+      '~bootstrap': resolve(__dirname, 'node_modules/bootstrap'),
+    }
+  },
   base: "./",
   build: {
     outDir,

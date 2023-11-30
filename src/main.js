@@ -51,6 +51,7 @@ const weeks = [
   {order: 4, date: '11/11/2023'},
   {order: 5, date: '25/11/2023'},
   {order: 5, date: '25/11/2023'},
+  {order: 6, date: '2/12/2023'},
 ]
 console.log(weeks)
 

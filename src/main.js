@@ -59,7 +59,7 @@ console.log(weeks)
 
 function createWeeks() {
   weeks.forEach(week => {
-    container.appendChild(createWeek(week.order, week.date, week.presentationLink, week.codeLink))
+    container.insertBefore(createWeek(week.order, week.date, week.presentationLink, week.codeLink), container.firstChild);
   })
 }
 

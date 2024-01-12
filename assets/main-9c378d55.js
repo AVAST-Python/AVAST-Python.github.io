@@ -21,4 +21,4 @@
       </div>
     </div>
   </div>
-  `;return hl.parseFromString(o,"text/html").body.firstChild}const si=[{order:1,date:"30/9/2023"},{order:2,date:"21/10/2023"},{order:3,date:"28/10/2023"},{order:4,date:"11/11/2023"},{order:5,date:"25/11/2023"},{order:5,date:"25/11/2023"},{order:6,date:"2/12/2023"},{order:7,date:"16/12/2023"}];console.log(si);function pl(){si.forEach(n=>{dl.appendChild(fl(n.order,n.date,n.presentationLink,n.codeLink))})}pl();
+  `;return hl.parseFromString(o,"text/html").body.firstChild}const si=[{order:1,date:"30/9/2023"},{order:2,date:"21/10/2023"},{order:3,date:"28/10/2023"},{order:4,date:"11/11/2023"},{order:5,date:"25/11/2023"},{order:5,date:"25/11/2023"},{order:6,date:"2/12/2023"},{order:7,date:"16/12/2023"},{order:8,date:"13/01/2024"}];console.log(si);function pl(){si.forEach(n=>{dl.appendChild(fl(n.order,n.date,n.presentationLink,n.codeLink))})}pl();

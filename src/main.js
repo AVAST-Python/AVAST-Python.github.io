@@ -50,7 +50,6 @@ const weeks = [
   {order: 3, date: '28/10/2023'},
   {order: 4, date: '11/11/2023'},
   {order: 5, date: '25/11/2023'},
-  {order: 5, date: '25/11/2023'},
   {order: 6, date: '2/12/2023'},
   {order: 7, date: '16/12/2023'},
   {order: 8, date: '13/01/2024'},
@@ -59,6 +58,7 @@ const weeks = [
   {order: 11, date: '7/03/2024'},
   {order: 12, date: '23/03/2024'},
   {order: 13, date: '20/04/2024'},
+  {order: 14, date: '27/04/2024'},
 ]
 console.log(weeks)
 
